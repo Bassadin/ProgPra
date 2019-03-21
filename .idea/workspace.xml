@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f3f8d79-80f0-4b0a-aca5-697528403f37" name="Default Changelist" comment="Renamed packages and stuff">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ioLibary.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Praktikum_2019_03_21/Multiplizierer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgPra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgPra.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgPra/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Praktikum_2019_03_21/Praktikum_2019_03_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Praktikum_2019_03_21/ConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +15,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Praktikum_2019_03_21/ConsoleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -41,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -130,7 +119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553176674752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553177255698" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,7 +244,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36944744" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -285,30 +274,11 @@
     <MESSAGE value="Renamed packages and stuff" />
     <option name="LAST_COMMIT_MESSAGE" value="Renamed packages and stuff" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Praktikum_2019_03_21/ConsoleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -319,10 +289,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Praktikum_2019_03_21/ConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>

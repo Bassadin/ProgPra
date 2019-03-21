@@ -4,14 +4,10 @@ public class Zweierpotenzen {
 
     public static void main(String[] args) {
 
-        int x = 1;
-        int i = 0;
+        int base = 9;
 
-        while(  x <= 10 ) {
-
-            System.out.println("2 hoch "+ i + " : " + x);
-            x = x * 2;
-            i = i + 1;
+        for (int i = 0; i < 10; i++) {
+            System.out.println(base + " hoch "+ i + " : " + Math.round(Math.pow(base, i)));
         }
 
     }
