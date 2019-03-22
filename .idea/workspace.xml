@@ -2,14 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f3f8d79-80f0-4b0a-aca5-697528403f37" name="Default Changelist" comment="Renamed packages and stuff">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/basti.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Groovy.Groovy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Groovy.Groovy.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Groovy.Groovy.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Groovy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aufgaben/a01/PalindromTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgPra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgPra.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgPra/Aufgaben/a01/Palindrom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgPra/Aufgaben/a01/Palindrom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aufgaben/a01/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgaben/a01/Palindrom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/Groovy/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Groovy/build/" />
+    <ignored path="$PROJECT_DIR$/Groovy/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Groovy">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Groovy" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -38,26 +77,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aufgaben/a01/Palindrom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="425">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Praktikum_2019_03_21/Multiplizierer.java">
+        <entry file="file://$PROJECT_DIR$/src/Aufgaben/a01/PalindromTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +109,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -92,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/Praktikum_2019_03_21/Multiplizierer.java" />
         <option value="$PROJECT_DIR$/src/Praktikum_2019_03_21/Zweierpotenzen.java" />
         <option value="$PROJECT_DIR$/src/Aufgaben/a01/MinMax.java" />
+        <option value="$PROJECT_DIR$/src/Aufgaben/a01/PalindromTest.groovy" />
+        <option value="$PROJECT_DIR$/src/Aufgaben/a01/PalindromTest.java" />
         <option value="$PROJECT_DIR$/src/Aufgaben/a01/Palindrom.java" />
       </list>
     </option>
@@ -118,6 +163,29 @@
             <path>
               <item name="ProgPra" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProgPra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgPra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgPra" type="462c0819:PsiDirectoryNode" />
+              <item name="Groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgPra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgPra" type="462c0819:PsiDirectoryNode" />
+              <item name="Groovy" type="462c0819:PsiDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgPra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgPra" type="462c0819:PsiDirectoryNode" />
+              <item name="Groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgPra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgPra" type="462c0819:PsiDirectoryNode" />
+              <item name="Groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProgPra" type="b2602c69:ProjectViewProjectNode" />
@@ -153,8 +221,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553258111618" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553261017387" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Aufgaben.a01" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,22 +257,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Palindrom">
-    <configuration name="ConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_2019_03_21.ConsoleTest" />
-      <module name="ProgPra" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Praktikum_2019_03_21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aufgaben.a01.MinMax" />
+  <component name="RunManager" selected="JUnit.PalindromTest">
+    <configuration name="PalindromTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProgPra" />
       <extension name="coverage">
         <pattern>
@@ -191,25 +266,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Aufgaben.a01" />
+      <option name="MAIN_CLASS_NAME" value="Aufgaben.a01.PalindromTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiplizierer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_2019_03_21.Multiplizierer" />
-      <module name="ProgPra" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Praktikum_2019_03_21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aufgaben.a01.Palindrom" />
+    <configuration name="PalindromTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProgPra" />
       <extension name="coverage">
         <pattern>
@@ -217,37 +281,74 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Aufgaben.a01" />
+      <option name="MAIN_CLASS_NAME" value="Aufgaben.a01.PalindromTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zweierpotenzen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum_2019_03_21.Zweierpotenzen" />
+    <configuration name="PalindromTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProgPra" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Praktikum_2019_03_21.*" />
+          <option name="PATTERN" value="Aufgaben.a01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Aufgaben.a01" />
+      <option name="MAIN_CLASS_NAME" value="Aufgaben.a01.PalindromTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromTest.isPalindromRELIEFPFEILER" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgPra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aufgaben.a01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Aufgaben.a01" />
+      <option name="MAIN_CLASS_NAME" value="Aufgaben.a01.PalindromTest" />
+      <option name="METHOD_NAME" value="isPalindromRELIEFPFEILER" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromTest.testIsPalindromRELIEFPFEILER" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgPra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aufgaben.a01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Aufgaben.a01" />
+      <option name="MAIN_CLASS_NAME" value="Aufgaben.a01.PalindromTest" />
+      <option name="METHOD_NAME" value="testIsPalindromRELIEFPFEILER" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsoleTest" />
-      <item itemvalue="Application.MinMax" />
-      <item itemvalue="Application.Multiplizierer" />
-      <item itemvalue="Application.Zweierpotenzen" />
-      <item itemvalue="Application.Palindrom" />
+      <item itemvalue="JUnit.PalindromTest" />
+      <item itemvalue="JUnit.PalindromTest (1)" />
+      <item itemvalue="JUnit.PalindromTest (2)" />
+      <item itemvalue="JUnit.PalindromTest.testIsPalindromRELIEFPFEILER" />
+      <item itemvalue="JUnit.PalindromTest.isPalindromRELIEFPFEILER" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Palindrom" />
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.Zweierpotenzen" />
-        <item itemvalue="Application.ConsoleTest" />
-        <item itemvalue="Application.Multiplizierer" />
+        <item itemvalue="JUnit.PalindromTest" />
+        <item itemvalue="JUnit.PalindromTest.isPalindromRELIEFPFEILER" />
+        <item itemvalue="JUnit.PalindromTest.testIsPalindromRELIEFPFEILER" />
+        <item itemvalue="JUnit.PalindromTest (2)" />
+        <item itemvalue="JUnit.PalindromTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +380,38 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PalindromTest_isPalindromRELIEFPFEILER - 2019.03.22 at 14h 05m 55s.xml">
+      <configuration name="PalindromTest.isPalindromRELIEFPFEILER" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest_isPalindromRELIEFPFEILER - 2019.03.22 at 14h 07m 08s.xml">
+      <configuration name="PalindromTest.isPalindromRELIEFPFEILER" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest_isPalindromRELIEFPFEILER - 2019.03.22 at 14h 10m 40s.xml">
+      <configuration name="PalindromTest.isPalindromRELIEFPFEILER" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest_isPalindromRELIEFPFEILER - 2019.03.22 at 14h 14m 53s.xml">
+      <configuration name="PalindromTest.isPalindromRELIEFPFEILER" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest_isPalindromRELIEFPFEILER - 2019.03.22 at 14h 19m 25s.xml">
+      <configuration name="PalindromTest.isPalindromRELIEFPFEILER" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest_isPalindromRELIEFPFEILER - 2019.03.22 at 14h 19m 42s.xml">
+      <configuration name="PalindromTest.isPalindromRELIEFPFEILER" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest_isPalindromRELIEFPFEILER - 2019.03.22 at 14h 20m 00s.xml">
+      <configuration name="PalindromTest.isPalindromRELIEFPFEILER" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest - 2019.03.22 at 14h 21m 41s.xml">
+      <configuration name="PalindromTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest - 2019.03.22 at 14h 22m 06s.xml">
+      <configuration name="PalindromTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromTest - 2019.03.22 at 14h 22m 15s.xml">
+      <configuration name="PalindromTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -299,9 +432,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36944744" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36944744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,6 +444,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Gradle" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,12 +524,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgaben/a01/Palindrom.java">
+    <entry file="file://$PROJECT_DIR$/src/Aufgaben/a01/PalindromTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Groovy/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgaben/a01/PalindromTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgaben/a01/Palindrom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProgPra</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ioLibary</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -21,13 +21,14 @@ public class Palindrom {
     public static boolean isPalindrom(String word) {
         int wordLength = word.length();
 
+        int secondSubstringStartIndex = (wordLength / 2);
         //Check if word length is odd
         if ((wordLength & 1) != 0) {
-            return false;
+            secondSubstringStartIndex = secondSubstringStartIndex + 1;
         }
 
         String wordFirstHalf = word.toLowerCase().substring(0, (wordLength / 2));
-        String wordSecondHalf = word.toLowerCase().substring((wordLength / 2), wordLength);
+        String wordSecondHalf = word.toLowerCase().substring(secondSubstringStartIndex, wordLength);
 
         return wordFirstHalf.equals(new StringBuilder(wordSecondHalf).reverse().toString());
     }

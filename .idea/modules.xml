@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Groovy.iml" filepath="$PROJECT_DIR$/.idea/modules/Groovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Groovy.Groovy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Groovy.Groovy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Groovy.Groovy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Groovy.Groovy.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgPra.iml" filepath="$PROJECT_DIR$/ProgPra.iml" />
     </modules>
   </component>
