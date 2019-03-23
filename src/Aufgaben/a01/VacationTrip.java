@@ -1,7 +1,6 @@
 package Aufgaben.a01;
 
 import static prog.ConsoleReader.readInt;
-import static prog.ConsoleReader.readString;
 
 public class VacationTrip {
     private static float flightPrice = 456;
@@ -9,9 +8,17 @@ public class VacationTrip {
     private static float dailySpendingSum = 456;
 
     public static void main(String[] args) {
-        int overnightStays = readInt();
-        int personsAmount = readInt();
-        System.out.println("Gesamtpreis für " + personsAmount + " und " + overnightStays + " Nächte: " + calculateCosts(overnightStays, personsAmount));
+        int overnightStays = readInt("Anzahl Übernachtungen");
+        int personsAmount = readInt("Anzahl Personen");
+        System.out.println(
+            "Gesamtpreis für "
+                + personsAmount
+                + " und "
+                + overnightStays
+                + " Nächte: Netto:"
+                + calculateCosts(overnightStays, personsAmount)
+                + "€; Brutto: "
+                + calculateCosts(overnightStays, personsAmount, true));
     }
 
     public static float calculateCosts(int overnightStays, int personsAmount) {
@@ -21,10 +28,10 @@ public class VacationTrip {
     public static float calculateCosts(int overnightStays, int personsAmount, boolean addTax) {
         float sum = 0;
 
-        sum += flightPrice * personsAmount;
-        sum += hotelPrice * personsAmount * overnightStays;
+        sum += (flightPrice * personsAmount) * (addTax ? 1.19 : 1); //Add Tax if addTax is true
+        sum += (hotelPrice * personsAmount * overnightStays) * (addTax ? 1.07 : 1); //Add Tax if addTax is true
         sum += dailySpendingSum * personsAmount * (overnightStays + 1);
 
-        return 5;
+        return sum;
     }
 }
