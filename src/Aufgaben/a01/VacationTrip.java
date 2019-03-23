@@ -26,12 +26,12 @@ public class VacationTrip {
     }
 
     public static float calculateCosts(int overnightStays, int personsAmount, boolean addTax) {
-        float sum = 0;
+        float totalSum = 0;
 
-        sum += (flightPrice * personsAmount) * (addTax ? 1.19 : 1); //Add Tax if addTax is true
-        sum += (hotelPrice * personsAmount * overnightStays) * (addTax ? 1.07 : 1); //Add Tax if addTax is true
-        sum += dailySpendingSum * personsAmount * (overnightStays + 1);
+        totalSum += (flightPrice * personsAmount) * (addTax ? 1.19 : 1); //Add Tax if addTax is true
+        totalSum += (hotelPrice * personsAmount * overnightStays) * (addTax ? 1.07 : 1); //Add Tax if addTax is true
+        totalSum += dailySpendingSum * personsAmount * (overnightStays + 1);
 
-        return sum;
+        return totalSum;
     }
 }
