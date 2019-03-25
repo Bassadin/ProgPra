@@ -15,23 +15,27 @@ public class VacationTrip {
                 + personsAmount
                 + " und "
                 + overnightStays
-                + " Nächte: Netto:"
+                + " Nächte: Netto: "
                 + calculateCosts(overnightStays, personsAmount)
                 + "€; Brutto: "
                 + calculateCosts(overnightStays, personsAmount, true));
     }
 
-    public static float calculateCosts(int overnightStays, int personsAmount) {
+    private static double calculateCosts(int overnightStays, int personsAmount) {
         return calculateCosts(overnightStays, personsAmount, false);
     }
 
-    public static float calculateCosts(int overnightStays, int personsAmount, boolean addTax) {
+    private static double calculateCosts(int overnightStays, int personsAmount, boolean addTax) {
         float totalSum = 0;
 
         totalSum += (flightPrice * personsAmount) * (addTax ? 1.19 : 1); //Add Tax if addTax is true
         totalSum += (hotelPrice * personsAmount * overnightStays) * (addTax ? 1.07 : 1); //Add Tax if addTax is true
         totalSum += dailySpendingSum * personsAmount * (overnightStays + 1);
 
-        return totalSum;
+        return roundToTwoPlaces(totalSum);
+    }
+
+    private static double roundToTwoPlaces(float numberToRound) {
+        return Math.round(numberToRound * 100.0) / 100.0;
     }
 }
