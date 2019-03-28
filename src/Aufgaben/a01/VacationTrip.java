@@ -32,10 +32,10 @@ public class VacationTrip {
         totalSum += (hotelPrice * personsAmount * overnightStays) * (addTax ? 1.07 : 1); //Add Tax if addTax is true
         totalSum += dailySpendingSum * personsAmount * (overnightStays + 1);
 
-        return roundToTwoPlaces(totalSum);
+        return roundToTwoDecimals(totalSum);
     }
 
-    private static double roundToTwoPlaces(float numberToRound) {
+    private static double roundToTwoDecimals(float numberToRound) {
         return Math.round(numberToRound * 100.0) / 100.0;
     }
 }
