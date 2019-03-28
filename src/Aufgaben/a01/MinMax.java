@@ -19,8 +19,18 @@ public class MinMax {
         minMax(new int[]{a, b, c});
     }
     public static void minMax(int[] array) {
-        int[] sortArray = array;
-        Arrays.sort(sortArray);
-        System.out.println("Minimum: " + sortArray[0] + ". Maximum: " + sortArray[sortArray.length - 1] + ".");
+        int max = array[0];
+        int min = array[0];
+
+        for (int eachNumber:array) {
+            if (eachNumber < min) {
+                min = eachNumber;
+            }
+            if (eachNumber > max) {
+                max = eachNumber;
+            }
+        }
+
+        System.out.println("Minimum: " + min + ". Maximum: " + max + ".");
     }
 }
