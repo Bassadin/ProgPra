@@ -1,8 +1,7 @@
 package Aufgaben.a01;
 
-import java.util.Arrays;
-
-import static prog.ConsoleReader.*;
+import static prog.ConsoleReader.readInt;
+import static prog.ConsoleReader.readIntArray;
 public class MinMax {
 
     public static void main(String[] args) {
@@ -12,13 +11,18 @@ public class MinMax {
         int c = readInt("c");
         int[] array = readIntArray("array");
 
-        minMax(a,b,c);
-        minMax(array);
+        printMinMaxArray(minMax(a,b,c));
+        printMinMaxArray(minMax(array));
     }
-    public static void minMax(int a, int b, int c) {
-        minMax(new int[]{a, b, c});
+
+    public static void printMinMaxArray(int[] minxMaxArray) {
+        System.out.println("Minimum: " + minxMaxArray[0] + ". Maximum: " + minxMaxArray[1] + ".");
     }
-    public static void minMax(int[] array) {
+
+    public static int[] minMax(int a, int b, int c) {
+        return minMax(new int[]{a, b, c});
+    }
+    public static int[] minMax(int[] array) {
         int max = array[0];
         int min = array[0];
 
@@ -30,7 +34,6 @@ public class MinMax {
                 max = eachNumber;
             }
         }
-
-        System.out.println("Minimum: " + min + ". Maximum: " + max + ".");
+        return new int[]{min, max};
     }
 }

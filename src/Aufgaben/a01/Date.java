@@ -15,7 +15,7 @@ public class Date {
             throw new Exception("String is not 8 chars long");
         }
 
-        return new Date(Integer.parseInt(dateString.substring(1, 4)), Integer.parseInt(dateString.substring(5, 6)), Integer.parseInt(dateString.substring(7, 8)));
+        return new Date(Integer.parseInt(dateString.substring(0, 4)), Integer.parseInt(dateString.substring(5, 6)), Integer.parseInt(dateString.substring(7, 8)));
     }
 
     public String printAsYYYYMMDDString() {
@@ -28,5 +28,9 @@ public class Date {
         } else {
             return "0" + Integer.toString(number);
         }
+    }
+
+    public boolean equals(Date dateToCompare) {
+        return dayIndex == dateToCompare.dayIndex && monthIndex == dateToCompare.monthIndex && year == dateToCompare.year;
     }
 }

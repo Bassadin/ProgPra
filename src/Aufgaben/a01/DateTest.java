@@ -22,7 +22,12 @@ public class DateTest {
     }
 
     @Test
-    public void dateFromDateString() throws Exception {
-        assertEquals(Date.dateFromYYYYMMDDString("20190505"), new Date(2019, 5, 5));
+    public void dateFromDateString20190505() throws Exception {
+        assertTrue(Date.dateFromYYYYMMDDString("20190505").equals(new Date(2019, 5, 5)));
+    }
+
+    @Test
+    public void dateFromDateString2019() throws Exception {
+        assertTrue(Date.dateFromYYYYMMDDString("2019").equals(new Date(2019, 5, 5)));
     }
 }
