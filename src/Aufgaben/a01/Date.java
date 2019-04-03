@@ -1,7 +1,7 @@
 package Aufgaben.a01;
 
 public class Date {
-    private int dayIndex, monthIndex, year;
+    public int dayIndex, monthIndex, year;
 
 
     public Date(int year, int monthIndex, int dayIndex) {

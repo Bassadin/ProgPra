@@ -26,8 +26,13 @@ public class DateTest {
         assertTrue(Date.dateFromYYYYMMDDString("20190505").equals(new Date(2019, 5, 5)));
     }
 
-    @Test
+    @Test(expected = Exception.class)
     public void dateFromDateString2019() throws Exception {
         assertTrue(Date.dateFromYYYYMMDDString("2019").equals(new Date(2019, 5, 5)));
+    }
+
+    @Test(expected = Exception.class)
+    public void dateFromDateStringEmptyString() throws Exception {
+        assertTrue(Date.dateFromYYYYMMDDString("").equals(new Date(2019, 5, 5)));
     }
 }
