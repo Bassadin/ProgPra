@@ -1,28 +1,24 @@
 package Vorlesung;
 
 import java.text.DecimalFormat;
+import java.util.stream.DoubleStream;
 
 public class MarksAverage {
     public static void main (String[] args) {
         double[] marks = {2.3, 4.0, 1.7, 4.0, 5.0, 1.0, 1.2};
         DecimalFormat df = new DecimalFormat("#.##");
 
-        System.out.println(df.format(arrayAverage(marks)));
-
-        System.out.println(numberOfSpecificMark(marks, 4.0));
+        System.out.println(df.format(averageOfArray(marks)));
+        System.out.println(occurrencesOfMarkInArray(marks, 4.0));
     }
 
-    public static double arrayAverage(double[] array) {
-        double sum = 0.0;
-        for (double i: array) {
-            sum += i;
-        }
-        return sum / array.length;
+    public static double averageOfArray(double[] marksArray) {
+        return DoubleStream.of(marksArray).sum() / marksArray.length;
     }
 
-    public static int numberOfSpecificMark(double[] array, double markToSearch) {
+    public static int occurrencesOfMarkInArray(double[] marksArray, double markToSearch) {
         int counter = 0;
-        for (double i: array) {
+        for (double i: marksArray) {
             if (i == markToSearch) {
                 counter++;
             }

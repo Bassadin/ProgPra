@@ -20,6 +20,7 @@ public class Palindrom {
 
     public static boolean isPalindrom(String word) {
         int wordLength = word.length();
+        String wordLowercase = word.toLowerCase();
 
         int secondSubstringStartIndex = (wordLength / 2);
         //Check if word length is odd
@@ -27,8 +28,8 @@ public class Palindrom {
             secondSubstringStartIndex = secondSubstringStartIndex + 1;
         }
 
-        String wordFirstHalf = word.toLowerCase().substring(0, (wordLength / 2));
-        String wordSecondHalf = word.toLowerCase().substring(secondSubstringStartIndex, wordLength);
+        String wordFirstHalf = wordLowercase.substring(0, (wordLength / 2));
+        String wordSecondHalf = wordLowercase.substring(secondSubstringStartIndex, wordLength);
 
         return wordFirstHalf.equals(new StringBuilder(wordSecondHalf).reverse().toString());
     }
