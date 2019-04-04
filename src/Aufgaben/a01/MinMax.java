@@ -26,7 +26,7 @@ public class MinMax {
         int max = array[0];
         int min = array[0];
 
-        for (int eachNumber:array) {
+        for (int eachNumber : array) {
             if (eachNumber < min) {
                 min = eachNumber;
             }

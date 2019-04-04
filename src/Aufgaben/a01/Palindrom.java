@@ -24,6 +24,7 @@ public class Palindrom {
         //Check if word length is odd
         int secondSubstringStartIndex = (wordLength / 2) + ((wordLength & 1) == 0 ? 0 : 1);
 
+        //Divide the string into two halves
         String wordFirstHalf = wordAsLowercase.substring(0, (wordLength / 2));
         String wordSecondHalf = wordAsLowercase.substring(secondSubstringStartIndex, wordLength);
 

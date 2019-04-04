@@ -32,10 +32,11 @@ public class VacationTrip {
         totalSum += (hotelPrice * personsAmount * overnightStays) * (addTax ? 1.07 : 1); //Add Tax if addTax is true
         totalSum += dailySpendingSum * personsAmount * (overnightStays + 1);
 
-        return roundToThreeDecimals(totalSum);
+        return roundToTwoDecimals(totalSum);
     }
 
-    private static double roundToThreeDecimals(float numberToRound) {
+    private static double roundToTwoDecimals(float numberToRound) {
         return Math.round(numberToRound * 1000) / 1000;
+        //TODO Mit Kommaverschiebung nochmal selbst implementieren
     }
 }
