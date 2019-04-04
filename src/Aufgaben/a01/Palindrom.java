@@ -4,12 +4,12 @@ import static prog.ConsoleReader.*;
 
 public class Palindrom {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         String wort = readString();
         palindromTest(wort);
     }
 
-    public static void palindromTest(String wort ) {
+    public static void palindromTest(String wort ) throws Exception {
         if(isPalindrom(wort)) {
             System.out.println("Der String " + wort + " ist ein Palindrom");
         }
@@ -18,15 +18,18 @@ public class Palindrom {
         }
     }
 
-    public static boolean isPalindrom(String word) {
+    public static boolean isPalindrom(String word) throws Exception {
         int wordLength = word.length();
-        String wordLowercase = word.toLowerCase();
+        if (wordLength < 1) {
+            throw new Exception("Word length cannot be < 1");
+        }
+        String wordAsLowercase = word.toLowerCase();
 
         //Check if word length is odd
-        int secondSubstringStartIndex = (wordLength / 2) + ((wordLength & 1) != 0 ? 0 : 1);
+        int secondSubstringStartIndex = (wordLength / 2) + ((wordLength & 1) == 0 ? 0 : 1);
 
-        String wordFirstHalf = wordLowercase.substring(0, (wordLength / 2));
-        String wordSecondHalf = wordLowercase.substring(secondSubstringStartIndex, wordLength);
+        String wordFirstHalf = wordAsLowercase.substring(0, (wordLength / 2));
+        String wordSecondHalf = wordAsLowercase.substring(secondSubstringStartIndex, wordLength);
 
         return wordFirstHalf.equals(new StringBuilder(wordSecondHalf).reverse().toString());
     }
