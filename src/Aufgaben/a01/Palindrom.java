@@ -22,11 +22,8 @@ public class Palindrom {
         int wordLength = word.length();
         String wordLowercase = word.toLowerCase();
 
-        int secondSubstringStartIndex = (wordLength / 2);
         //Check if word length is odd
-        if ((wordLength & 1) != 0) {
-            secondSubstringStartIndex = secondSubstringStartIndex + 1;
-        }
+        int secondSubstringStartIndex = (wordLength / 2) + ((wordLength & 1) != 0 ? 0 : 1);
 
         String wordFirstHalf = wordLowercase.substring(0, (wordLength / 2));
         String wordSecondHalf = wordLowercase.substring(secondSubstringStartIndex, wordLength);
