@@ -20,8 +20,8 @@ public class Palindrom {
 
     public static boolean isPalindrom(String word) throws Exception {
         int wordLength = word.length();
-        if (wordLength < 1) {
-            throw new Exception("Word length cannot be < 1");
+        if (wordLength == 0) {
+            throw new Exception("Word length cannot be 0");
         }
         String wordAsLowercase = word.toLowerCase();
 
