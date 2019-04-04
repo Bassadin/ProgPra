@@ -6,10 +6,6 @@ public class Palindrom {
 
     public static void main(String[] args) throws Exception {
         String wort = readString();
-        palindromTest(wort);
-    }
-
-    public static void palindromTest(String wort ) throws Exception {
         if(isPalindrom(wort)) {
             System.out.println("Der String " + wort + " ist ein Palindrom");
         }
